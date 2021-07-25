@@ -15,7 +15,6 @@ Zmuggler Features:
 Run the following commands:
 ```
 $ git clone https://github.com/electronicbots/Zmuggler.git
-$ pip3 install -r requirements.txt
 $ chmod +x Zmuggler.py
 ```
 
