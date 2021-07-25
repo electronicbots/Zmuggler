@@ -172,7 +172,7 @@ class ZSmuggler():
 def Args():
     Parser = optparse.OptionParser()
     group = optparse.OptionGroup(Parser, "Grouped arguments")
-    group.add_option('--target' , dest='link', help = 'Path to the urls file')
+    group.add_option('--target' , dest='link', help = 'Path to the target URL')
     Parser.add_option_group(group)
     (arguments, values) = Parser.parse_args()
     return arguments
